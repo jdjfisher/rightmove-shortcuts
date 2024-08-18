@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Rightmove Shortcuts",
+  "version": "1.0",
+  "description": "Add keyboard shortcuts to Rightmove",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "*://*.rightmove.co.uk/*"
+  ],
+  "commands": {
+    "hide-property": {
+      "suggested_key": {
+          "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
+      },
+      "description": "Hide the current property"
+    }
+  }
+}
